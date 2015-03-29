@@ -2,11 +2,11 @@
 
 from distutils.core import setup
 
-setup(name='python-markdown-math',
+setup(name='markdown-mathjax',
       description='Math extension for Python-Markdown',
-      author='Dmitry Shachnev',
-      author_email='mitya57@gmail.com',
+      author='Dmitry Shachnev, Sam Toyer',
+      author_email='mitya57@gmail.com, sam@qxcv.net',
       version='0.1',
-      url='https://github.com/mitya57/python-markdown-math',
-      py_modules=['mdx_math'],
+      url='https://github.com/qxcv/python-markdown-math',
+      py_modules=['markdown_mathjax'],
       license='BSD')
